@@ -1,0 +1,104 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Suspension Component",
+	"behavior": "create",
+	"noteNameFormat": "{{title}}",
+	"path": "References",
+	"noteContentFormat": "{{description}}\n\n> [!info] Specs à compléter\n> Coller ici le tableau de specs pertinent, puis remplir `rating` (confiance) après lecture.",
+	"properties": [
+		{
+			"name": "categories",
+			"value": "[[Products]]",
+			"type": "multitext"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "brand",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "component",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "travel",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "damper",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "year",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "price",
+			"value": "{{meta:property:product:price:amount}}",
+			"type": "number"
+		},
+		{
+			"name": "image",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "via",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "source_type",
+			"value": "fabricant",
+			"type": "text"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings, suspension",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"/^https?:\\/\\/(www\\.)?ridefox\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?sram\\.com\\/.*(rockshox|rock-shox).*/",
+		"/^https?:\\/\\/(www\\.)?rockshox\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?ohlins\\.(com|eu)\\/.*/",
+		"/^https?:\\/\\/(www\\.)?canecreek\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?dvosuspension\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?manitoumtb\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?marzocchi\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?srsuntour\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?extremeshox\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?pushindustries\\.com\\/.*/",
+		"/^https?:\\/\\/(www\\.)?rideformula\\.com\\/.*/"
+	]
+}
