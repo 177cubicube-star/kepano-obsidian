@@ -5,7 +5,7 @@ tags:
   - clippings
 author: []
 url: ""
-created: {{date}}
+created: {{date:YYYY-MM-DD}}
 published: 
 topics: []
 ---

@@ -10,7 +10,7 @@ isbn13:
 year:
 rating:
 topics: []
-created: {{date}}
+created: {{date:YYYY-MM-DD}}
 last:
 via: ""
 tags:

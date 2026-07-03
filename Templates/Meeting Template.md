@@ -2,7 +2,7 @@
 categories:
   - "[[Meetings]]"
 type: []
-date: {{date}}
+date: {{date:YYYY-MM-DD}}
 org:
 loc:
 people: []

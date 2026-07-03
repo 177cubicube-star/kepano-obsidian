@@ -5,7 +5,7 @@ type:
   - "[[Cities]]"
 loc:
 rating:
-created: {{date}}
+created: {{date:YYYY-MM-DD}}
 last:
 coordinates:
   - "35.021041"

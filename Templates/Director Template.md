@@ -3,7 +3,7 @@ categories:
   - "[[People]]"
 type:
   - "[[Directors]]"
-created: {{date}}
+created: {{date:YYYY-MM-DD}}
 ---
 ## Movies
 

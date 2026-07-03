@@ -4,6 +4,6 @@ categories:
 maker:
 rating:
 price:
-last: {{date}}
-created: {{date}}
+last: {{date:YYYY-MM-DD}}
+created: {{date:YYYY-MM-DD}}
 ---

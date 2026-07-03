@@ -6,6 +6,6 @@ maker:
 model:
 rating:
 price:
-acquired: {{date}}
+acquired: {{date:YYYY-MM-DD}}
 monthly-uses:
 ---

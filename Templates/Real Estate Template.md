@@ -4,7 +4,7 @@ categories:
 type: []
 address:
 rating:
-created: {{date}}
+created: {{date:YYYY-MM-DD}}
 url:
 year:
 price:
